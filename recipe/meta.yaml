@@ -33,8 +33,8 @@ test:
     - pip
 
 about:
-  home: https://github.com/Richardk2n/pyls-mypy
-  summary: Mypy linter for the Python Language Server
+  home: https://github.com/Richardk2n/mypy-ls
+  summary: Mypy linter for the Python LSP Server.
   license: MIT
   license_file: LICENSE
 
