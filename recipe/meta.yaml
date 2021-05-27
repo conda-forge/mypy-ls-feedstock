@@ -1,5 +1,5 @@
 {% set name = "mypy-ls" %}
-{% set version = "0.3.5" %}
+{% set version = "0.4.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4d42e9b604391aee35cbfd5ad40bf3f1f3c8a3469e6afa00fc4bfc04bca8e7e4
+  sha256: b1071dd451d44d4fdcbc6112689d5b7c5e5d6804370a2a7b5e2e67cc0fa5affb
 
 build:
   number: 0
@@ -22,7 +22,7 @@ requirements:
   run:
     - mypy
     - python >=3.6
-    - python-language-server >=0.34.0
+    - python-lsp-server
 
 test:
   imports:
