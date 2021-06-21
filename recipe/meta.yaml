@@ -1,5 +1,5 @@
 {% set name = "mypy-ls" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b1071dd451d44d4fdcbc6112689d5b7c5e5d6804370a2a7b5e2e67cc0fa5affb
+  sha256: e3f1b5d76efc1136440c10dc61fe601f75f753525632898d0ca35fdea1388f76
 
 build:
   number: 0
