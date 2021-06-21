@@ -1,13 +1,13 @@
 About mypy-ls
 =============
 
-Home: https://github.com/Richardk2n/pyls-mypy
+Home: https://github.com/Richardk2n/mypy-ls
 
 Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mypy-ls-feedstock/blob/master/LICENSE.txt)
 
-Summary: Mypy linter for the Python Language Server
+Summary: Mypy linter for the Python LSP Server.
 
 Current build status
 ====================
