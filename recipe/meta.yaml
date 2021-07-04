@@ -1,5 +1,5 @@
-{% set name = "mypy-ls" %}
-{% set version = "0.4.1" %}
+{% set name = "pylsp-mypy" %}
+{% set version = "0.5.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e3f1b5d76efc1136440c10dc61fe601f75f753525632898d0ca35fdea1388f76
+  sha256: ba79a8d059a53640f393ee060f6aa29b94aa6390ef57f7d9b47620111c9df112
 
 build:
   number: 0
@@ -26,14 +26,14 @@ requirements:
 
 test:
   imports:
-    - mypy_ls
+    - pylsp_mypy
   commands:
     - pip check
   requires:
     - pip
 
 about:
-  home: https://github.com/Richardk2n/mypy-ls
+  home: https://github.com/Richardk2n/pylsp-mypy
   summary: Mypy linter for the Python LSP Server.
   license: MIT
   license_file: LICENSE
