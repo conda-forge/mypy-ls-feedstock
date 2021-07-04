@@ -26,7 +26,7 @@ requirements:
 
 test:
   imports:
-    - pslp_mypy
+    - pylsp_mypy
   commands:
     - pip check
   requires:
