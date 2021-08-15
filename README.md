@@ -1,7 +1,7 @@
-About mypy-ls
-=============
+About pylsp-mypy
+================
 
-Home: https://github.com/Richardk2n/mypy-ls
+Home: https://github.com/Richardk2n/pylsp-mypy
 
 Package license: MIT
 
@@ -27,28 +27,28 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-mypy--ls-green.svg)](https://anaconda.org/conda-forge/mypy-ls) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/mypy-ls.svg)](https://anaconda.org/conda-forge/mypy-ls) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/mypy-ls.svg)](https://anaconda.org/conda-forge/mypy-ls) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/mypy-ls.svg)](https://anaconda.org/conda-forge/mypy-ls) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pylsp--mypy-green.svg)](https://anaconda.org/conda-forge/pylsp-mypy) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pylsp-mypy.svg)](https://anaconda.org/conda-forge/pylsp-mypy) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pylsp-mypy.svg)](https://anaconda.org/conda-forge/pylsp-mypy) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pylsp-mypy.svg)](https://anaconda.org/conda-forge/pylsp-mypy) |
 
-Installing mypy-ls
-==================
+Installing pylsp-mypy
+=====================
 
-Installing `mypy-ls` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `pylsp-mypy` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `mypy-ls` can be installed with:
+Once the `conda-forge` channel has been enabled, `pylsp-mypy` can be installed with:
 
 ```
-conda install mypy-ls
+conda install pylsp-mypy
 ```
 
-It is possible to list all of the versions of `mypy-ls` available on your platform with:
+It is possible to list all of the versions of `pylsp-mypy` available on your platform with:
 
 ```
-conda search mypy-ls --channel conda-forge
+conda search pylsp-mypy --channel conda-forge
 ```
 
 
@@ -90,17 +90,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating mypy-ls-feedstock
-==========================
+Updating pylsp-mypy-feedstock
+=============================
 
-If you would like to improve the mypy-ls recipe or build a new
+If you would like to improve the pylsp-mypy recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/mypy-ls-feedstock are
+Note that all branches in the conda-forge/pylsp-mypy-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
