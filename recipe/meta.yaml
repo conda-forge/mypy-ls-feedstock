@@ -1,5 +1,5 @@
 {% set name = "pylsp-mypy" %}
-{% set version = "0.5.5" %}
+{% set version = "0.5.6" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 1a0261d07fe04b11c063576eb82e3252c6f85c4c5f166889985513a5988a9933
+  sha256: 4f72c5cf2c92dd23f90f3a49deeff1b94d6a55c417e80ab38f88009f83e5802f
 
 build:
   number: 0
