@@ -23,6 +23,7 @@ requirements:
     - mypy
     - python >=3.6
     - python-lsp-server
+    - toml
 
 test:
   imports:
