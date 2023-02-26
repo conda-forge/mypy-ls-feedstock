@@ -1,11 +1,11 @@
-About pylsp-mypy
-================
+About pylsp-mypy-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mypy-ls-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Richardk2n/pylsp-mypy
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/mypy-ls-feedstock/blob/main/LICENSE.txt)
 
 Summary: Mypy linter for the Python LSP Server.
 
