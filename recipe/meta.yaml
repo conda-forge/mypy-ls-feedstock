@@ -11,19 +11,19 @@ source:
   sha256: aa5d547b25ca431b5b17689c495c55aa374b19b35c59746987e417044fb722ce
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python >=3.7
   run:
     - mypy
-    - python >=3.6
-    - python-lsp-server
-    - toml
+    - python >=3.7
+    - python-lsp-server >=1.7.0
+    - tomli >=1.1.0
 
 test:
   imports:
