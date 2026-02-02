@@ -1,5 +1,5 @@
 {% set name = "pylsp-mypy" %}
-{% set version = "0.7.0" %}
+{% set version = "0.7.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: e94f531d4ce523222c2af7471abe396cfeb4cc3c4b181d54462fb6d553e1e0b3
+  sha256: 4465a9b5f7816f02579f1398e369cae953952c7d2aaa9cab35e7a554e242b766
 
 build:
   number: 0
@@ -23,7 +23,7 @@ requirements:
   run:
     - mypy >=0.981
     - python >={{ python_min }}
-    - python-lsp-server >=1.7.0
+    - python-lsp-server >=1.13.1
     - tomli >=1.1.0
 
 test:
